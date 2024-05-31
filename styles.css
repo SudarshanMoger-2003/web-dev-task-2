@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('car-hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: white;
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #b00710;
+}
+
+/* Features Section */
+.features-section {
+    padding: 4em 2em;
+    background-color: white;
+}
+
+.features-section h2 {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.feature {
+    text-align: center;
+    padding: 2em;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 1em 0;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1em;
+}
+
+.feature h3 {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Gallery Section */
+.gallery-section {
+    padding: 4em 2em;
+    background-color: #f4f4f4;
+}
+
+.gallery-section h2 {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.image-gallery img {
+    width: 30%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 4em 2em;
+    background-color: white;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    margin-bottom: 2em;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.testimonials-section blockquote {
+    font-style: italic;
+    color: #666;
+    margin: 1em 0;
+}
+
+/* Event Info Section */
+.event-info-section {
+    padding: 4em 2em;
+    background-color: #e50914;
+    color: white;
+    text-align: center;
+}
+
+.event-info-section h2 {
+    margin-bottom: 1em;
+    font-size: 2.5em;
+}
+
+.event-info-section p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.registration-form {
+    margin-top: 1em;
+}
+
+.registration-form input {
+    padding: 0.7em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+}
+
+.registration-form button {
+    background-color: white;
+    color: #e50914;
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #f4f4f4;
+}
+
+/* Footer */
+.footer {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
